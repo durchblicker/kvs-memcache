@@ -1,0 +1,32 @@
+{
+  "name": "kvs-memcache",
+  "version": "0.1.0",
+  "description": "A simple interface to a MemcacheD that can be used with the KVS API",
+  "main": "memcache.js",
+  "private": true,
+  "scripts": {
+    "test": "./node_modules/.bin/lab test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pipobscure/kvs-memcache.git"
+  },
+  "keywords": [
+    "memcached",
+    "kvs"
+  ],
+  "author": "Philipp Dunkel <pip@pipobscure.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pipobscure/kvs-memcache/issues"
+  },
+  "dependencies": {
+    "kvs-abstract": "~0.1.0",
+    "memcache": "~0.3.0",
+    "once": "~1.3.0"
+  },
+  "devDependencies": {
+    "joi": "~2.0.3",
+    "lab": "~1.2.2"
+  }
+}
