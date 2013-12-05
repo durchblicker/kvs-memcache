@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "description": "A simple interface to a MemcacheD that can be used with the KVS API",
   "main": "memcache.js",
-  "private": true,
   "scripts": {
     "test": "./node_modules/.bin/lab test/"
   },
