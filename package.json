@@ -1,6 +1,6 @@
 {
   "name": "kvs-memcache",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A simple interface to a MemcacheD that can be used with the KVS API",
   "main": "memcache.js",
   "scripts": {

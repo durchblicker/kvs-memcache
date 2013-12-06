@@ -5,6 +5,7 @@
 'use strict';
 
 module.exports = MemCache;
+module.exports.kvt = 'store';
 
 var memcache = require('memcache');
 var once = require('once');
